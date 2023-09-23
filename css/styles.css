@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -15,18 +15,17 @@ a {
 }
 
 .header-logo {
-  color: #2e2f42;
-  width: 71px;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .header-logo span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-nav-link {
@@ -38,6 +37,10 @@ a {
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
 
 .address-link {
@@ -64,11 +67,13 @@ a {
 }
 
 .btn {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
@@ -88,6 +93,7 @@ a {
 .advantages-item {
 }
 .advantages-subtitle {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -105,6 +111,7 @@ a {
   background-color: #f4f4fd;
 }
 .team-title {
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -113,12 +120,14 @@ a {
   text-transform: capitalize;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
 .team-img {
 }
 .team-subtitle {
+  color: #2e2f42;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -126,7 +135,6 @@ a {
   letter-spacing: 0.02em;
 }
 .team-text {
-  color: #434455;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -138,6 +146,7 @@ a {
 .portfolio {
 }
 .portfolio-title {
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -152,12 +161,14 @@ a {
 .portfolio-img {
 }
 .portfolio-subtitle {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .portfolio-text {
+  letter-spacing: 0.02em;
 }
 
 /* ======================================================================= */
@@ -168,17 +179,17 @@ a {
   background-color: #2e2f42;
 }
 .footer-logo {
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .footer-logo span {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-text {
